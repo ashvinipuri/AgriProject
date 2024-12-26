@@ -1,0 +1,258 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e2eafc;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-dashboard p{
+  font-size: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+ 
+  
+}
+.nav-item{
+  font-size: 30px;
+  gap: 30px;
+}
+
+.profile{
+  font-size: 30px;
+}
+
+.action-buttons{
+  font-size: 30px;
+}
+.navbar-nav{
+  gap: 340px;
+  background-color: #515657b5;
+
+}
+
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .profile {
+  display: flex;
+  align-items: center;
+}
+
+header .profile button {
+  background-color: #52b69a;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.main-dashboard {
+  padding: 20px;
+}
+
+.quick-stats {
+  display: flex;
+  gap: 16px;
+}
+
+.stat-card {
+  background-color: #d6ccc2;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+}
+
+.quick-stats{
+  font-size: 30px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 16px);
+  box-sizing: border-box;
+}
+
+.action-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.action-buttons button {
+  background-color: #70e000;
+  color: black;
+  border: none;
+  padding: 10px 16px;
+  margin: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.action-buttons button:hover {
+  background-color: #70e000;
+}
+
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  background-color: #1e293b; /* Dark background for the cards */
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #ffffff; /* Text color */
+  width: calc(33.333% - 16px); /* Make the cards responsive in a row */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.05); /* Lift and scale the card */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.card h4 {
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: bold; /* Slightly larger for headers */
+  color: #38bdf8; /* Highlight title in a light blue color */
+
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 20px; /* Standard font size */
+  color: #ffffff; /* White text */
+}
+
+
+.quick-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Space between stat cards */
+}
+
+.stat-card {
+  background-color: #1e293b; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #ffffff; /* Text color */
+  text-align: center; /* Center-align the content */
+  flex: 1 1 calc(25% - 16px); /* Responsive layout: 4 cards in a row */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+.stat-card:hover {
+  transform: translateY(-8px) scale(1.05); /* Lift and scale effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.stat-card:hover {
+  transform: translateY(-8px) scale(1.05); /* Lift and scale effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.stat-card {
+    flex: padding 10.
+}
+
+
+
+.action-buttons {
+  display: flex;
+  font-size: 100px;
+  gap: 16px; /* Space between buttons */
+  justify-content: center; /* Center-align the buttons */
+  margin-top: 20px; /* Add some space from the rest of the content */
+}
+
+.action-buttons button {
+  background-color: rgb(21, 175, 21); /* Dark background for buttons */
+  color: #ffffff; /* White text color */
+  padding: 12px 20px; /* Add padding for a clickable button */
+  border: none; /* Remove default button borders */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-size: 20px; /* Standard font size */
+  cursor: pointer;
+  .action-buttons {
+  display: flex;
+  gap: 16px; /* Space between buttons */
+  justify-content: center; /* Center-align the buttons */
+  margin-top: 20px; /* Add some space from the rest of the content */
+}
+
+.action-buttons button {
+  background-color: #1e293b; /* Dark background for buttons */
+  color: #ffffff; /* White text color */
+  padding: 12px 20px; /* Add padding for a clickable button */
+  border: none; /* Remove default button borders */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+.action-buttons button:hover {
+  transform: translateY(-8px) scale(1.05); /* Lift and scale effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  background-color: #38bdf8; /* Change background color on hover */
+  color: #1e293b; /* Change text color on hover */
+}
+ /* Pointer cursor on hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+.action-buttons button:hover {
+  transform: translateY(-8px) scale(1.05); /* Lift and scale effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  background-color: #38bdf8; /* Change background color on hover */
+  color: #1e293b; /* Change text color on hover */
+}
+
+
+
+.profile button {
+  background-color: #1e293b; /* Dark background for button */
+  color: #ffffff; /* White text color */
+  padding: 10px 20px; /* Add padding for a clickable button */
+  border: none; /* Remove default button borders */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-size: 1rem; /* Standard font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth animation */
+}
+
+.profile button:hover {
+  transform: translateY(-8px) scale(1.05); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+  background-color: #38bdf8; /* Change background color on hover */
+  color: #1e293b;
+}
